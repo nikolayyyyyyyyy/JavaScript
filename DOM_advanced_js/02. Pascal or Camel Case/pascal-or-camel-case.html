@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,17 @@
     <link rel="stylesheet" href="pascal-or-camel-case.css">
     <script src="pascal-or-camel-case.js"></script>
 </head>
+
 <body>
-    
+
     <form>
         <div>
             <label for="text">Text: </label>
-            <input type="text" id="text" value="secOND eXamPLE">
+            <input type="text" id="text">
         </div>
         <div>
             <label for="naming-convention">Naming Convention: </label>
-            <input type="text" id="naming-convention" value="Camel Case">
+            <input type="text" id="naming-convention">
         </div>
 
         <input type="button" onclick="solve()" value="Transform">
@@ -26,4 +28,5 @@
     <div class="result-container">Result: <span id="result"></span></div>
 
 </body>
+
 </html>

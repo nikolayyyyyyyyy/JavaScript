@@ -19,7 +19,9 @@ html {
 
 }
 
-body, input, button {
+body,
+input,
+button {
     font: inherit
 }
 
@@ -66,7 +68,7 @@ input[type="button"] {
 
     &:hover {
         text-decoration: underline;
-    }    
+    }
 }
 
 .result-container {
